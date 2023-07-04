@@ -15,8 +15,8 @@ let idCount = 0;
 
 export const TodoCtx = createContext<TodoType>({
   todos: [],
-  addTodo: (text: string) => {},
-  removeTodo: (id: number) => {},
+  addTodo: (_text: string) => {},
+  removeTodo: (_id: number) => {},
 });
 
 const TodoCtxProvider = ({ children }: Prop) => {
